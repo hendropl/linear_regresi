@@ -5,7 +5,7 @@
 >"A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E."
 -Tom Mitchell
 
-This is the first in (hopefully) a series of projects where I implement various machine learning algorithms in Python. I am currently working through the excellent [Andrew Ng course on Coursera](https://www.coursera.org/learn/machine-learning) and using this as a way to consolidate my thoughts on each topic and to gain a deeper understanding of the topics I am learning.
+
 
 ### Algorithm 1: Simple Linear Regression w. Gradient Descent
 
@@ -15,7 +15,6 @@ This is the first algorithm featured in the course. I will try to break down the
 
 Say the price of a house is related to the size of the house. Small houses are cheap, medium size houses are a bit more expensive and large houses are the most expensive. We can say there is a *linear* relationship between the size of a house and the price of a house.
 
-![alt text](https://www.dropbox.com/s/n9f5yr56jw96363/price%20of%20house%20example.png?raw=1 "Price of houses example")
 
 Say we are an estate agent and we want to know the price of a house and we only know the square footage of the house. This would be fine if we have an exact data point but what if we don't have a data point to work with? Wouldn't it be great if we could *guess* the value given any square foot value? Enter linear regression.
 
